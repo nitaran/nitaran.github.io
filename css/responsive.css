@@ -1,0 +1,87 @@
+/*** SMARTPHONES ***/
+@media only screen 
+and (max-width: 767px) {
+
+	#nav-list li{ float: none; }
+	#nav-list li #logo{ display: none;}
+	#nav-toggle{ right: 11px; top: 11px; padding-top: 6px; }
+	.open-menu{ top: 0px !important; }
+	.internal-link{ padding-top: 22px !important; }
+	
+	#home-slider h1{ font-size: 30px;}
+	#home-slider .slides li{ background-attachment: scroll !important; }
+	.divider{ background-attachment: scroll !important; }
+	.flex-control-nav{ bottom: 22px; }
+	.flex-control-paging li a{ width: 15px; height: 15px; border: 2px solid #fff; }
+	
+	#clients{ display: none; }
+	
+	.feature{ text-align: center; margin-bottom: 44px; }
+	.feature-bubble{ margin: 0px auto; margin-bottom: 22px; }
+	.feature:nth-last-child(-n+2){ margin-bottom: 44px; }
+	.feature:last-child{ margin-bottom: 0px !important; }
+	
+	#gallery-small .btn{ margin-bottom: 44px; }
+	
+	.pricing-table{ margin-bottom: 44px; }
+	
+	#gallery-slider img{ max-width: 100%; }
+	
+	.open-question{ max-height: 500px !important; }
+	.question{ max-height: 161px;  }
+	.question .hr{ margin-left: 0px; }
+	.question p{ padding-left: 0px; }
+	
+	#contact-lower h1{ margin-top: 0px; margin-bottom: 44px; }
+	#contact-lower .columns{ width: 100%; text-align: center; }
+	#contact-lower input{ width: 80%; float: none; display: block; margin: 0px auto; margin-bottom: 22px; }
+	#contact-lower #form-btn{ width: 80%; float: none; margin: 0px auto; }
+	
+	#footer .text-right{ text-align: left !important; }
+
+}
+
+/*** ALL TABLETS ***/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+	#nav-toggle{ padding-top: 6px; }
+	#home-slider .slides li{ background-attachment: scroll !important; }
+	.divider{ background-attachment: scroll !important; }
+	#form-btn{ padding-top: 3px; }
+
+}
+
+/*** LANDSCAPE TABLETS ***/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+	#nav-toggle{ right: 11px; }
+
+}
+
+/*** PORTRAIT TABLETS ***/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+	#nav-list li{ float: none; }
+	#nav-list li #logo{ display: none;}
+	
+	.feature{ width: 100%; }
+	.feature:nth-last-child(-n+2){ margin-bottom: 66px; }
+	.feature:last-child{ margin-bottom: 0px !important; }
+	.feature-bubble{ margin: 0px auto; }
+	
+	.question h2{ font-size: 1.8em; }
+	
+	#contact-lower h1{ margin-top: 0px; margin-bottom: 44px; }
+	#contact-lower .columns{ width: 100%; text-align: center; }
+	#contact-lower input{ float: none; display: block; margin: 0px auto; margin-bottom: 22px; }
+	#contact-lower #form-btn{ width: 40%; float: none; margin: 0px auto; }
+
+}
